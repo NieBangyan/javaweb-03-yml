@@ -1,0 +1,19 @@
+# 1. Basic Service Configuration
+server:
+  port: 8081
+  servlet:
+    context-path: /demo
+
+# 2. Spring Application Basics
+spring:
+  application:
+    name: yml-demo
+  profiles:
+    active: dev
+# 3. Custom Configuration (Read from Java Code)
+custom:
+  author: 张三
+  age: 24
+  skill:
+    - Java
+    - MySQL
